@@ -1,0 +1,15 @@
+The_str = 'racecar'
+The_str = The_str.casefold()
+rev_str = reversed(The_str)
+if list(The_str) == list(rev_str):
+   print('It is a palindrome word')
+else:
+   print('It is not a palindrome word')
+
+The_str = 'mother'
+The_str = The_str.casefold()
+rev_str = reversed(The_str)
+if list(The_str) == list(rev_str):
+   print('It is a palindrome word')
+else:
+   print('It is not a palindrome word')
