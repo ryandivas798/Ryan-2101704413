@@ -1,0 +1,29 @@
+data=['a','b','c','d','e','f','g','h','i','j']
+a=0
+b=1
+c=int(a)+int(b)
+d=int(c)+int(b)
+e=int(d)+int(c)
+f=int(e)+int(d)
+g=int(f)+int(e)
+h=int(g)+int(f)
+i=int(h)+int(g)
+j=int(i)+int(h)
+print('Fibonacci Problem')
+for a in range (0,1):
+ print(a,b,c,d,e,f,g,h,i,j)
+
+n = 10
+arr = []
+a= b =0
+c = 1
+for i in range(n):
+    a = b+c
+    c = b
+    b = a
+    arr.append(str(a))
+count = 0
+count = count + 1
+while(count<10):
+    print(str(count))
+print(','.join(arr))
